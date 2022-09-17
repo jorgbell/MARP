@@ -1,2 +1,2 @@
-﻿  01.cpp
-  TEMA_01.vcxproj -> C:\hlocal\MARP\22-23\MARP_22-23\x64\Debug\TEMA_01.exe
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\eskar\Desktop\ESTUDIOS\22-23\MARP\22-23\MARP_22-23\x64\Debug\TEMA_01.exe : fatal error LNK1120: 1 externos sin resolver
