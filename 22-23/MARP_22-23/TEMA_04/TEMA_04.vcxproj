@@ -130,6 +130,7 @@
     <ClCompile Include="10.cpp" />
     <ClCompile Include="11.cpp" />
     <ClCompile Include="13.cpp" />
+    <ClCompile Include="17.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Grafo.h" />
