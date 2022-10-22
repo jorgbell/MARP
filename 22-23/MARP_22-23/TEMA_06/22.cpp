@@ -1,4 +1,4 @@
-
+﻿
 /*@ <answer>
 *
 * Nombre y Apellidos: Jorge Bello Martin
@@ -57,7 +57,7 @@ private:
 	}
 };
 
-bool resuelveCaso23() {
+bool resuelveCaso22() {
 
 	// leer los datos de la entrada
 	GrafoValorado<int> g = GrafoValorado<int>(cin, 1);
@@ -68,8 +68,8 @@ bool resuelveCaso23() {
 	for (int i = 0; i < K; i++) {
 		int a, b, v;
 		cin >> a >> b >> v;
-		Ciudad c = Ciudad(g, a-1, v);
-		c.hayCamino(b-1);
+		Ciudad c = Ciudad(g, a - 1, v);
+		c.hayCamino(b - 1);
 	}
 
 
@@ -79,14 +79,14 @@ bool resuelveCaso23() {
 //@ </answer>
 //  Lo que se escriba dejado de esta l�nea ya no forma parte de la soluci�n.
 
-int main23() {
+int main22() {
 	// ajustes para que cin extraiga directamente de un fichero
 #ifndef DOMJUDGE
-	std::ifstream in("casos23.txt");
+	std::ifstream in("casos22.txt");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
 
-	while (resuelveCaso23());
+	while (resuelveCaso22());
 
 	// para dejar todo como estaba al principio
 #ifndef DOMJUDGE
