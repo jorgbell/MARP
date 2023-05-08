@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="09.cpp">
+    <ClCompile Include="..\TEMA_04\10.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="08.cpp">
+    <ClCompile Include="..\TEMA_04\11.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

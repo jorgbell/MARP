@@ -95,7 +95,7 @@ bool resuelveCaso07() {
 //@ </answer>
 //  Lo que se escriba dejado de esta línea ya no forma parte de la solución.
 
-int main() {
+int main07() {
 	// ajustes para que cin extraiga directamente de un fichero
 #ifndef DOMJUDGE
 	std::ifstream in("casos07.txt");
